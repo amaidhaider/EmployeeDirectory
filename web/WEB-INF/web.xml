@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+    <servlet>
+    <servlet-name>EmployeeDetailServlet</servlet-name>
+    <servlet-class>com.example.EmployeeDirectory.EmployeeDetailServlet</servlet-class>
+</servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeDetailServlet</servlet-name>
+        <url-pattern>/EmployeeDetailServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewEmployeeServlet</servlet-name>
+        <servlet-class>com.example.EmployeeDirectory.ViewEmployeeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ViewEmployeeServlet</servlet-name>
+        <url-pattern>/ViewEmployeeServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SaveServlet</servlet-name>
+        <servlet-class>com.example.EmployeeDirectory.SaveServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SaveServlet</servlet-name>
+        <url-pattern>/SaveServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminIndexServlet</servlet-name>
+        <servlet-class>com.example.EmployeeDirectory.AdminIndexServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminIndexServlet</servlet-name>
+        <url-pattern>/AdminIndexServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowDepartmentServlet</servlet-name>
+        <servlet-class>com.example.EmployeeDirectory.ShowDepartmentServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ShowDepartmentServlet</servlet-name>
+        <url-pattern>/ShowDepartmentServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditDepartmentServlet</servlet-name>
+        <servlet-class>com.example.EmployeeDirectory.EditDepartmentServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EditDepartmentServlet</servlet-name>
+        <url-pattern>/EditDepartmentServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletUserLogin</servlet-name>
+        <servlet-class>com.example.EmployeeDirectory.ServletUserLogin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletUserLogin</servlet-name>
+        <url-pattern>/ServletUserLogin</url-pattern>
+    </servlet-mapping>
+
+
+
+</web-app>
